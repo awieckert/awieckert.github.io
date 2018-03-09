@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
     <nav>
         <h3>Adam Wieckert</h3>
         <ul>
-            <a href="prof-hist.html"><li>Professional History</li></a>
-            <a href="contact.html"><li>Contact Info</li></a>
-            <a href="project.html"><li>Projects</li></a>
-            <a href="funFact.html"><li>Fun Facts</li></a>
+            <a href="prof-hist.html" class="navlinks"><li id="navitem1">Professional History</li></a>
+            <a href="contact.html" class="navlinks"><li id="navitem2">Contact Info</li></a>
+            <a href="project.html" class="navlinks"><li id="navitem3">Projects</li></a>
+            <a href="funFact.html" class="navlinks"><li id="navitem4">Fun Facts</li></a>
         </ul>
     </nav>
 
     <article>
-    <h1>Blog Post #1</h1>
+    <h1 id="blog" onClick="growWidth(this.id)">Blog Post #1</h1>
     <h4>Date: 2/25/2018</h4>
     </article>
         <h5>Strengths:</h5>
@@ -68,5 +69,6 @@
             <p>JavaScript is awesome when it works and you comprehend whats being done. JavaScript SUCKS when you don't.</p>
     </article>
 
+    <script src="main.js"></script>
 </body>
 </html>

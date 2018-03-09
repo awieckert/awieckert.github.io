@@ -1,5 +1,9 @@
+/* * {
+    border: yellow solid 1px;
+} */
+
 body {
-    background-color: gray;
+    background-color: rgb(122, 99, 99);
 }
 
 img {
@@ -7,7 +11,29 @@ img {
     max-height: 300px;
 }
 
-.carousel {
-    width: 400px;
-    height: 400px;
+/* Nav Bar Styling */
+
+
+nav h3 {
+    display: inline-block;
+}
+
+.grow { 
+    transition: all .2s ease-in-out;
+ }
+
+.navlinks:hover {
+    color: rgb(175, 54, 54);
+}
+
+.navlinks li {
+    transition: all 1s ease-in-out;
+    display: inline-block;
+    padding: 1.2em;
+    border-radius: 10px;
+}
+
+.navlinks li:hover {
+    transform: scale(1.2);
+    background-color:rgb(76, 76, 141);
 }
