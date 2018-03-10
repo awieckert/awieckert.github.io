@@ -13,6 +13,17 @@ body {
 
 /* Nav Bar Styling */
 
+nav {
+    padding-top: 0.5em;
+}
+
+ul {
+    display: inline-block;
+}
+
+ul a {
+    color: white;
+}
 
 nav h3 {
     display: inline-block;
@@ -23,7 +34,7 @@ nav h3 {
  }
 
 .navlinks:hover {
-    color: rgb(175, 54, 54);
+    color: rgb(187, 56, 56);
 }
 
 .navlinks li {
@@ -38,6 +49,23 @@ nav h3 {
     background-color:rgb(76, 76, 141);
 }
 
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: rgb(122, 99, 99);
+}
+
+.jumbotron .btn-primary {
+    background-color: rgb(76, 76, 141);
+    border-color: rgb(76, 76, 141);
+    transition: all 1s ease-in-out;
+}
+
+.jumbotron .btn-primary:hover {
+    transform: scale(1.2);
+    background-color:rgb(76, 76, 141);
+}
 
 /* Cards */
 
