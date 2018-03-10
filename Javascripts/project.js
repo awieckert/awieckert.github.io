@@ -50,7 +50,6 @@ function writeToDom (stringToPrint, divID){
     printDiv.innerHTML = stringToPrint;
 }
 
-console.log(projects[0].id);
 
 function createProjectCards (arrayOfObjects) {
     var currentObject;

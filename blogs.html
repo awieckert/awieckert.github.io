@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
@@ -19,56 +20,23 @@
         </ul>
     </nav>
 
-    <article>
-    <h1 id="blog">Blog Post #1</h1>
-    <h4>Date: 2/25/2018</h4>
-    </article>
-        <h5>Strengths:</h5>
-        <p>After going over Git and GitHub with the instructors I feel more comfortable with it than I did after the treehouse course.</p>
-        <p>I feel that I am able to conceptualize most/all of what is being taught, except for the difference between red and green apparently!</p>
+    <div class="jumbotron" id="Blog -1">
+        <h1 class="display-4">Welcome to the Blog!</h1>
+        <p class="lead">I'll be documenting my journey through NSS. The good the bad and the not so good! Will all be displayed here.</p>
+        <hr class="my-4">
+        <p>Below you will find weekly updates, a timeline if you will, of my struggles and well more struggles.</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#Blog 0" role="button">Head to Blog #1</a>
+        </p>
+      </div>
 
-        <h5>Weaknesses:</h5>
-        <p>Styling images! Christ! I'm not sure if it is attempting to mimic another site using their source material or what but I have been struggling with the sizing of images.</p>
-
-        <p>Page layout is going to be my biggest downfall, or really where I need to spend most of my time practicing. Hoping that utilizing flexbox on my own site will prove more fruitful for my understanding of layout and image/div sizing.</p>
-
-        <h5>Things I've noticed:</h5>
-        <p>It may be, that a better way to size images is by utilizing background-image in CSS. Requires a div to have set width and heigh though.</p>
-    </article>
+      <div class="row justify-content-center" id="blogs-container">
 
 
-    <article>
-        <h1>Blog Post #2</h1>
-        <h4>Date: 3/9/2018</h4>
-        </article>
-            <h5>Strengths:</h5>
-            <p>JavaScript logic. I feel relatively comfortable with the concepts of JavaScript that we have learned so far. I think my strengths will primarily lie within the realm of JavaScript over CSS styling.</p>
-            <p>I have felt good about our group communication as well. Everyone is putting the time in and willing to ask questions/help out.</p>
-    
-            <h5>Weaknesses:</h5>
-            <p>More advanced JavaScript. While I just said JavaScript was where my strength lie, it is also where I have plenty of glaring weaknesses. There is a lot to learn and I've only just scratched the tip. Recently I've been frustrated with the .filter() function.</p>
-    
-            <p>I also need to be careful creating infinite loops. Is doesn't happen often but when it does, oh man does it!</p>
-    
-            <h5>Things I've noticed:</h5>
-            <p>When fixing an infinite loop, make sure to clear you're browsers cache. Even after fixing the issue and starting a localhost on a different port, depending on where the loop is being loaded it can persist in your cache.</p>
-    </article>
 
-    <article>
-        <h1>Blog Post #3</h1>
-        <h4>Date: 3/9/2018</h4>
-        </article>
-            <h5>Strengths:</h5>
-            <p>Not sure there are any new updates in this category. Certainly have more weaknesses to discuss! YAY!</p>
-        
-            <h5>Weaknesses:</h5>
-            <p>Knowing when to take a break! I struggled with a loop for an hour and a half, fixed the issue but became frustrated with myself. I then attempted to wrestle with a new concept. BAD IDEA when you're already frustrated. I need to identify when I need to switch gears and work on something else.</p>
-    
-            <p>Part of the issue is that I don't like to leave things unfinished. Probably going to have to learn that this is an inevitability</p>
-    
-            <h5>Things I've noticed:</h5>
-            <p>JavaScript is awesome when it works and you comprehend whats being done. JavaScript SUCKS when you don't.</p>
-    </article>
+      </div>
+
+
 
     <script src="Javascripts/blogs.js"></script>
 </body>
