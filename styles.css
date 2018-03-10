@@ -6,10 +6,10 @@ body {
     background-color: rgb(122, 99, 99);
 }
 
-img {
+/* img {
     max-width: 300px;
     max-height: 300px;
-}
+} */
 
 /* Nav Bar Styling */
 
@@ -37,3 +37,7 @@ nav h3 {
     transform: scale(1.2);
     background-color:rgb(76, 76, 141);
 }
+
+
+/* Cards */
+
