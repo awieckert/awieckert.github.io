@@ -25,6 +25,22 @@ var blogs = [
         weaknesses: "Knowing when to take a break! I struggled with a loop for an hour and a half, fixed the issue but became frustrated with myself. I then attempted to wrestle with a new concept. BAD IDEA when you're already frustrated. I need to identify when I need to switch gears and work on something else. Part of the issue is that I don't like to leave things unfinished. Probably going to have to learn that this is an inevitability.",
         notes: "JavaScript is awesome when it works and you comprehend whats being done. JavaScript SUCKS when you don't.",
     },
+    {
+        id: "Blog 4",
+        title: "Blog Post #4",
+        date: "Date: 3/30/2018",
+        strengths: "I have become more comfortable with my JavaScript knowledge. Looking at loops and other people's functions has started to feel more intuitive. I am sure right as I say this Zoe & Co. will introduce a new concept that will throw me for a loop....punny!",
+        weaknesses: "CSS is still a struggle. I understand the concepts, how to write it and many properties, but getting a page to lay out how I want it too is taking more time than it should.",
+        notes: "It's okay to be bested by the code and ask for help, as long as you've struggled with it for awhile. Your understanding of the material will increase through wrestling with the material even if you need an instructor to make the code run.",
+    },
+    {
+        id: "Blog 5",
+        title: "Blog Post #5",
+        date: "Date: 3/31/2018",
+        strengths: "The introduction of JSON has made sense so far. Chaining of functions is intuitive but I need more practice.",
+        weaknesses: "Organization of functions in JS. Setting them up in the proper order can feel a bit counter intutive currently. Another weakness is identifying multiple way to grab the data I'm after rather than thinking to turn back to the JSON object right away.",
+        notes: "Things N' Stuff. Also Ron Swanson is my Hero.",
+    },
 ];
 function writeToDom (stringToPrint, divID){
     var printDiv = document.getElementById(divID);
