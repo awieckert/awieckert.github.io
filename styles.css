@@ -67,5 +67,9 @@ nav h3 {
     background-color:rgb(76, 76, 141);
 }
 
-/* Cards */
+/* Project Cards */
+
+.project-card {
+    height: 400px;
+}
 

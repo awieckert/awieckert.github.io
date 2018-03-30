@@ -43,7 +43,7 @@ const startApplication = () => {
     let myRequest = new XMLHttpRequest;
     myRequest.addEventListener("load", onLoad);
     myRequest.addEventListener("error", onFail);
-    myRequest.open("GET", "db/blogs.json");
+    myRequest.open("GET", "../db/blogs.json");
     myRequest.send();
 }
 
