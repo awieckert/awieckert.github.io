@@ -39,6 +39,14 @@
         "strengths" : "The introduction of JSON has made sense so far. Chaining of functions is intuitive but I need more practice.",
         "weaknesses" : "Organization of functions in JS. Setting them up in the proper order can feel a bit counter intutive currently. Another weakness is identifying multiple way to grab the data I'm after rather than thinking to turn back to the JSON object right away.",
         "notes" : "Things N' Stuff. Also Ron Swanson is my Hero."
+    },
+    {
+        "id" : "Blog 6",
+        "title" : "Blog Post #6",
+        "date" : "Date: 4/9/2018",
+        "strengths" : "Holding back shower tears.....just kidding. Things are going pretty well so far. I'm really enjoying everything so far. JavaScript is certainly my strength relative to CSS styling. I enjoy the problem solving and logic of JavaScript. I feel fairly good about my troubleshooting abilities, except for this week when I needed to ask Lauren for help. Didn't know to look for the mistake I was making, makes it hard to resolve huh?!?!",
+        "weaknesses" : "Still CSS >.< I am getting a bit better at CSS layout with bootstrap. I have started reading the bootstrap documentation and it has been helping. Another weakness is remember that my XHR request cannot call ES6 functions! Bad ES6, Bad!",
+        "notes" : "READ READ READ! All the CSS styling. Keep reading it, you need it! Also practice it!"
     }
 ]
 }
