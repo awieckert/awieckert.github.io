@@ -47,6 +47,14 @@
         "strengths" : "Holding back shower tears.....just kidding. Things are going pretty well so far. I'm really enjoying everything so far. JavaScript is certainly my strength relative to CSS styling. I enjoy the problem solving and logic of JavaScript. I feel fairly good about my troubleshooting abilities, except for this week when I needed to ask Lauren for help. Didn't know to look for the mistake I was making, makes it hard to resolve huh?!?!",
         "weaknesses" : "Still CSS >.< I am getting a bit better at CSS layout with bootstrap. I have started reading the bootstrap documentation and it has been helping. Another weakness is remember that my XHR request cannot call ES6 functions! Bad ES6, Bad!",
         "notes" : "READ READ READ! All the CSS styling. Keep reading it, you need it! Also practice it!"
-    }
+    },
+    {
+      "id" : "Blog 7",
+      "title" : "Blog Post #7",
+      "date" : "Date: 4/14/2018",
+      "strengths" : "Got a positive review from the instructors last week. Was nice to know where the instructors view my progress through the program, instead of my own self deprecating version. I truly enjoy working with JavaScript, I'm excited to dive into C# later on in the program.",
+      "weaknesses" : "Had a bit of a freakout with Bootstrap 3 the other day. It was resolved, thankfully. After this event my understand of Bootstrap has increased a fair amount. Styling is still the major challenge for me. I wish we were using Bootstrap 4 at this point. Not utilizing Flexbox's amazingness seems wasteful.",
+      "notes" : "Put a bit more time in so that you can ask the instructors for challenges. They expect you to be asking them for more. Push yourself man, don't get complacent."
+  }
 ]
 }
