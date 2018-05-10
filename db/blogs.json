@@ -63,6 +63,22 @@
     "strengths" : "This blog isn't so much a discussion of strengths, more so a reflection of where we are at in the program. We have been learning how to use task runners, specifically grunt. With a task runner come the tasks to run of course. These are a linter with custom rules set by none other than the all powerful Zoe. The second task we are working with is browserify, which to my minimal understanding, allows node like functionality to be used in the browser. I believe this includes things like require, that allow us to make modular file structures. Technically we have been using a third task, 'watch', which tells grunt to watch for a save and then runs the other tasks. I may be blinded by lack of knowledge but this seems a bit redundant/silly. We have to tell a task runner to pay attention to what we are doing so that it will run tasks over and over. Shouldn't that be the default state of a task runner? I realize that using 'watch' may be similar to telling grunt what time of input to look for being it runs the tasks.",
     "weaknesses" : "Remember how last time I said my understand of bootstrap had improved.....yeah....scratch that. Was tasked with making our nav-bar a bit more mobile friendly for our website. Whelp, that didn't happen. You know the feeling when you add 4000000px to your margin and the element doesn't move? It's great.",
     "notes" : "I haven't asked the instructors for personal challenges yet, but our group for chatty has been working hard. We've met every night this week except friday, and we all did stuff for it on friday individually. We've added some additional features to chatty that haven't been given to us by the instructors, not to be rebels but just because we're excited about the project. Today we will tidy up what we have and ask Callan for some stretch goals. Added this so I can push blog 8 branch, will remove this sentence later."
+},
+{
+  "id" : "Blog 9",
+  "title" : "Blog Post #9",
+  "date" : "Date: 5/9/2018",
+  "strengths" : "Chatty was awesome! This week we were paired with individuals of 'like' skill. This made for a great group dynamic as everyone felt they were able to contribute as much as everyone else. It also allowed us to power through a lot of the material. I really enjoyed working with this group and learned plenty of tricks from everyone.",
+  "weaknesses" : "Planning..... We joked as a group that the reason we were all paired, was because we all sucked at planning. Was a struggle to start but once we got going everything went fine. The planning certainly helped in the long run. Have more tickets then not is a good problem to have.",
+  "notes" : "All of these group members are great resources and love what they do. Make sure to keep in touch with them."
+},
+{
+  "id" : "Blog 10",
+  "title" : "Blog Post #10",
+  "date" : "Date: 5/9/2018",
+  "strengths" : "This weeks topic, jQuery. Two words: F#$*ing Awesome! The number of built in methods is awesome. Certainly going to have to take the time to read the material, but the more I use it the better it will become.",
+  "weaknesses" : "It does change your way of thinking slightly, mostly due to not knowing as many methods but something to put time into. Learning to primarily target the DOM for data manipulation is a bit different than the JS we were doing earlier. Possible that true data manipulation will be treated with out the sure of jQuery but that is yet to be seen.",
+  "notes" : "Read the jQuery Docs. So helpful, even if they don't always seem like it. Better to have recolections of certain methods than to have never heard of them."
 }
 ]
 }
