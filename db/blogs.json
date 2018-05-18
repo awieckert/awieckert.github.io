@@ -79,6 +79,14 @@
   "strengths" : "This weeks topic, jQuery. Two words: F#$*ing Awesome! The number of built in methods is awesome. Certainly going to have to take the time to read the material, but the more I use it the better it will become.",
   "weaknesses" : "It does change your way of thinking slightly, mostly due to not knowing as many methods but something to put time into. Learning to primarily target the DOM for data manipulation is a bit different than the JS we were doing earlier. Possible that true data manipulation will be treated with out the sure of jQuery but that is yet to be seen.",
   "notes" : "Read the jQuery Docs. So helpful, even if they don't always seem like it. Better to have recolections of certain methods than to have never heard of them."
+},
+{
+  "id" : "Blog 11",
+  "title" : "Blog Post #11",
+  "date" : "Date: 5/17/2018",
+  "strengths" : "I enjoy pain.....Just kidding. This week we began to learn about promises. At first it was a bit hard to gather how these functioned. The concept of multiple timelines isn't a difficult one, programmer terms (sync vs async). However, know how the promise is actually accomplishing this is a bit interesting.",
+  "weaknesses" : "After bothering Callan for about an hour, I felt quite a bit better about promises. Thinking of promises as executing on a different stream or timeline form the rest of the code was helpful.",
+  "notes" : "I would like to read more about Promises, streams, event bubbling, and constructors. Function oriented programming if there is time."
 }
 ]
 }
