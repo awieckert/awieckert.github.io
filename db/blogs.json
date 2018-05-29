@@ -87,6 +87,14 @@
   "strengths" : "I enjoy pain.....Just kidding. This week we began to learn about promises. At first it was a bit hard to gather how these functioned. The concept of multiple timelines isn't a difficult one, programmer terms (sync vs async). However, know how the promise is actually accomplishing this is a bit interesting.",
   "weaknesses" : "After bothering Callan for about an hour, I felt quite a bit better about promises. Thinking of promises as executing on a different stream or timeline form the rest of the code was helpful.",
   "notes" : "I would like to read more about Promises, streams, event bubbling, and constructors. Function oriented programming if there is time."
+},
+{
+  "id" : "Blog 12",
+  "title" : "Blog Post #12",
+  "date" : "Date: 5/29/2018",
+  "strengths" : "On to API's! So far so good. The concepts of using a persistent data store are familiar. Currently we have only learned about requesting data through an API. Soon we will learn about posting and patching data. I'm also excited to learn more about firebase and webhosting.",
+  "weaknesses" : "Nothing in this department yet. Keyword is 'Yet'. Once we learn more about API's I am sure I will run into road blocks.",
+  "notes" : "Finish Robo Romp!"
 }
 ]
 }
