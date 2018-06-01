@@ -95,6 +95,14 @@
   "strengths" : "On to API's! So far so good. The concepts of using a persistent data store are familiar. Currently we have only learned about requesting data through an API. Soon we will learn about posting and patching data. I'm also excited to learn more about firebase and webhosting.",
   "weaknesses" : "Nothing in this department yet. Keyword is 'Yet'. Once we learn more about API's I am sure I will run into road blocks.",
   "notes" : "Finish Robo Romp!"
+},
+{
+  "id" : "Blog 13",
+  "title" : "Blog Post #13",
+  "date" : "Date: 6/1/2018",
+  "strengths" : "Currently learning how to work with Firebase. So far so good. I enjoy the concepts being taught here but the weather assignment is a bit boring relative to the others we've done. That said it has all the proper criteria to teach us how to work with an API and a data store, also probably has to do with the noob friendly weather API.",
+  "weaknesses" : "I don't like that you have to entirely replace your target object in firebase when updating it. This seems wasteful to me but I am sure there are reasons it is done this way that are way beyond my understanding.",
+  "notes" : "Robo Romp 1.0 is Finished! Robo Romp 1.1 in the works"
 }
 ]
 }
