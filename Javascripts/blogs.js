@@ -1,11 +1,19 @@
 console.log("YAY!");
 
+let firebaseConfig = {};
 
+const setFirebaseConfig = (datums) => {
+  firebaseConfig = datums;
+};
+
+const getFirebaseConfig = () => {
+  return firebaseConfig;
+};
 
 const writeToDom = (stringToPrint, divID) => {
     let printDiv = document.getElementById(divID);
     printDiv.innerHTML = stringToPrint;
-}
+};
 
 
 const createBlogCards = (arrayOfObjects) => {
@@ -26,17 +34,36 @@ const createBlogCards = (arrayOfObjects) => {
         stringToPrint += "</div>";
     }
     writeToDom(stringToPrint, "blogs-container");
-}
+};
 
 
 function onLoad () {
     const data = JSON.parse(this.responseText);
     createBlogCards(data.blogs);
-}
+};
 
 function onFail () {
     console.log("SHIT! It Broke");
-}
+};
+
+const getApiKeys = () => {
+  return new Promise ((resolve, reject) => {
+    $.ajax('../db/apiKeys.json').done((data) => {
+      resolve(data);
+    }).fail((err) => {
+      reject(err);
+    });
+  });
+};
+
+const callGetApiKeys = () => {
+  getApiKeys().then((data) => {
+    setFirebaseConfig(data.firebase);
+    firebase.initializeApp(getFirebaseConfig());
+  }).catch((err) => {
+    console.error('Firebase did not initialize: ', err);
+  });
+};
 
 const startApplication = () => {
     let myRequest = new XMLHttpRequest;
@@ -44,6 +71,8 @@ const startApplication = () => {
     myRequest.addEventListener("error", onFail);
     myRequest.open("GET", "../db/blogs.json");
     myRequest.send();
-}
+
+    callGetApiKeys();
+};
 
 startApplication();
