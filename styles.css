@@ -1,75 +1,13 @@
-/* * {
-    border: yellow solid 1px;
-} */
-
-body {
-    background-color: rgb(122, 99, 99);
+#header-container {
+  background-color: #4D48FB;
+  -webkit-box-shadow: 0 4px 11px rgba(124,146,169,.5);
+  box-shadow: 0 4px 11px rgba(124,146,169,.5)!important;
 }
 
-/* img {
-    max-width: 300px;
-    max-height: 300px;
-} */
-
-/* Nav Bar Styling */
-
-nav {
-    padding-top: 0.5em;
+.style-bar {
+  background-color: #4D48FB;
 }
 
-ul {
-    display: inline-block;
+.project-container {
+  background-color: whitesmoke;
 }
-
-ul a {
-    color: white;
-}
-
-nav h3 {
-    display: inline-block;
-}
-
-.grow { 
-    transition: all .2s ease-in-out;
- }
-
-.navlinks:hover {
-    color: rgb(187, 56, 56);
-}
-
-.navlinks li {
-    transition: all 1s ease-in-out;
-    display: inline-block;
-    padding: 1.2em;
-    border-radius: 10px;
-}
-
-.navlinks li:hover {
-    transform: scale(1.2);
-    background-color:rgb(76, 76, 141);
-}
-
-
-/* Jumbotron */
-
-.jumbotron {
-    background-color: rgb(122, 99, 99);
-}
-
-.jumbotron .btn-primary {
-    background-color: rgb(76, 76, 141);
-    border-color: rgb(76, 76, 141);
-    transition: all 1s ease-in-out;
-}
-
-.jumbotron .btn-primary:hover {
-    transform: scale(1.2);
-    background-color:rgb(76, 76, 141);
-}
-
-/* Project Cards */
-
-.project-card {
-    height: 400px;
-}
-
