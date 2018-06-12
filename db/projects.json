@@ -1,7 +1,6 @@
 {
-    "projects" : [
-    {
-        "id" : "Project 1",
+"Project1": {
+        "id" : "",
         "title" : "Super Cool Title 1",
         "imgURL" : "img/bug-cat.jpg",
         "description" : "This might be the most awesome project ever created, no seriously its really cool! Okay maybe it's not that great but you should still check it out.",
@@ -42,5 +41,4 @@
         "description" : "This might be the most awesome project ever created, no seriously its really cool! Okay maybe it's not that great but you should still check it out.",
         "gitHubURL" : "https://awieckert.github.io/"
     }
-]
 }

@@ -103,6 +103,14 @@
   "strengths" : "Currently learning how to work with Firebase. So far so good. I enjoy the concepts being taught here but the weather assignment is a bit boring relative to the others we've done. That said it has all the proper criteria to teach us how to work with an API and a data store, also probably has to do with the noob friendly weather API.",
   "weaknesses" : "I don't like that you have to entirely replace your target object in firebase when updating it. This seems wasteful to me but I am sure there are reasons it is done this way that are way beyond my understanding.",
   "notes" : "Robo Romp 1.0 is Finished! Robo Romp 1.1 in the works"
+},
+{
+  "id" : "Blog 14",
+  "title" : "Blog Post #14",
+  "date" : "Date: 6/12/2018",
+  "strengths" : "More work with Firebase this week. It's new and challenging for that reason but not conceptually. As I continue to use it I feel as though I have a better handle on it, at least at the basic level.",
+  "weaknesses" : "CSS as always. Bootstrap not allowing box shadows on containers? What is this nonsense!?",
+  "notes" : "Robo Romp ideas: 1. Add player log ins to track statistics. 2. Add ability to play computer or a friend using Socket.io. 3. Add a chat using socket.io."
 }
 ]
 }
