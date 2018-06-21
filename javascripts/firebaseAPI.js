@@ -1,4 +1,6 @@
-const firebaseConfig = {};
+const firebaseProjects = require('./firebaseProjects.js');
+
+let firebaseConfig = {};
 
 const setFirebaseConfig = (config) => {
   firebaseConfig = config;
@@ -19,9 +21,10 @@ const getFirebaseKey = () => {
 };
 
 const initializeFirebase = () => {
-  getFirebaseKey().then((data) => {
-    firebase.initializeApp(data.firebase);
-    setFirebaseConfig(data.firebase);
+  getFirebaseKey().then((datums) => {
+    firebase.initializeApp(datums.firebase);
+    setFirebaseConfig(datums.firebase);
+    firebaseProjects.getProjects(getFirebaseConfig());
   }).catch((err) => {
     console.error('Initializing Firebase failed: ', err);
   });
