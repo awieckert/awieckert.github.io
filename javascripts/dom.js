@@ -19,6 +19,14 @@ const printProjects = (projectsArray) => {
   printToDom('#projects', stringToPrint);
 };
 
+const printBlogs = (blogsArray) => {
+  let stringToPrint = '';
+  const arrayLength = blogsArray.length;
+  blogsArray.forEach((blog) => {
+
+  });
+};
+
 module.exports = {
   printProjects,
 };
