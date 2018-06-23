@@ -10,23 +10,46 @@ const paginationStuff = (e) => {
   let pageNumberClicked;
   let rangeMax;
   let rangeToInclude = [];
+  const targetValue = ($(e.target).text() * 1);
 
-  if (Number.isInteger($(e.target).text() * 1)) {
+  if (Number.isInteger(targetValue)) {
+    if (targetValue === paginationLength) {
+      $('#next-list').addClass('disabled');
+      $('#previous-list').removeClass('disabled');
+    } else if (targetValue === 1) {
+      $('#previous-list').addClass('disabled');
+      $('#next-list').removeClass('disabled');
+    } else if (targetValue < paginationLength) {
+      $('#next-list').removeClass('disabled');
+      $('#previous-list').removeClass('disabled');
+    }
     pageNumberClicked = (($(e.target).text()) * 1);
     rangeMax = (pageNumberClicked * 3);
     rangeToInclude = [(rangeMax - 2), (rangeMax - 1), rangeMax,];
     currentPage = pageNumberClicked;
   } else if (e.target.id === 'previous') {
     if (currentPage > 1) {
+      if (currentPage === 2) {
+        $('#previous-list').addClass('disabled');
+      }
       currentPage = currentPage - 1;
       rangeMax = (currentPage * 3);
       rangeToInclude = [(rangeMax - 2), (rangeMax - 1), rangeMax,];
+      if (currentPage <= 4) {
+        $('#next-list').removeClass('disabled');
+      }
     }
   } else if (e.target.id === 'next') {
     if (currentPage < paginationLength) {
+      if (currentPage === (paginationLength - 1)) {
+        $('#next-list').addClass('disabled');
+      }
       currentPage = currentPage + 1;
       rangeMax = (currentPage * 3);
       rangeToInclude = [(rangeMax - 2), (rangeMax - 1), rangeMax,];
+    }
+    if (currentPage > 1) {
+      $('#previous-list').removeClass('disabled');
     }
   }
 

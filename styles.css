@@ -1,24 +1,18 @@
-#header-container {
+.header-containers {
   background-color: #4D48FB;
-  -webkit-box-shadow: 0 4px 11px rgba(124,146,169,.5);
-  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+  z-index: 4000000;
+}
+
+.shadow-shit {
+  box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2) !important;
 }
 
 .style-bar {
   background-color: #4D48FB;
 }
 
-.project-container {
-  background-color: whitesmoke;
-}
-
-#awesome {
+.awesome {
   box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
-}
-
-.project-images {
-  height: 200px;
-  margin-top: 1rem;
 }
 
 .card-footer {
@@ -33,4 +27,59 @@
 .current {
   background-color: #007bff;
   color: white;
+}
+
+/* Project Styles */
+
+.project-container {
+  background-color: whitesmoke;
+  margin-top: 3px;
+}
+
+.project-images {
+  height: 200px;
+  margin-top: 1rem;
+}
+
+.github {
+  margin-left: 1%;
+}
+
+.jumbo-project {
+  position: relative;
+}
+
+.jumbo-project a {
+  z-index: 100000000000;
+}
+
+.jumbo-project .lead {
+  font-weight: 600;
+  /* background-color: whitesmoke; */
+  border-radius: 5px;
+}
+
+.robo-romp {
+  position: absolute;
+  right: 10px;
+  opacity: 0.12;
+}
+
+.local-weather {
+  position: absolute;
+  opacity: 0.13;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.chatter-cheese {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  opacity: 0.12;
+  border-radius: 5px;
 }
