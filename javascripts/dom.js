@@ -26,9 +26,9 @@ const printBlogs = (blogsArray) => {
   const paginationLength = Math.round(arrayLength / 3);
   blogsArray.forEach((blog, i) => {
     if (i >= 3) {
-      blogsToPrint += `<div id="${blog.id}" href="#" class="list-group-item list-group-item-action flex-column align-items-start active d-none">`;
+      blogsToPrint += `<div id="Blog-${blog.id}" href="#" class="list-group-item list-group-item-action flex-column align-items-start active d-none">`;
     } else {
-      blogsToPrint += `<div id="${blog.id}" href="#" class="list-group-item list-group-item-action flex-column align-items-start active">`;
+      blogsToPrint += `<div id="Blog-${blog.id}" href="#" class="list-group-item list-group-item-action flex-column align-items-start active">`;
     }
     blogsToPrint +=  `<div class="d-flex w-100 justify-content-between">`;
     blogsToPrint +=    `<h5 class="mb-1">${blog.title}</h5>`;

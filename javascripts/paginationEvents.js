@@ -9,8 +9,8 @@ const paginationStuff = (e) => {
   const rangeMax = (pageNumberClicked * 3);
   const rangeToInclude = [(rangeMax - 2), (rangeMax - 1), rangeMax,];
   if (initialRange !== rangeToInclude) {
-    $(`#Blog ${initialRange[0]}, #Blog ${initialRange[1]}, #Blog ${initialRange[2]}`).addClass('d-none');
-    $(`#Blog ${rangeToInclude[0]}, #Blog ${rangeToInclude[1]}, #Blog ${rangeToInclude[2]}`).removeClass('d-none');
+    $(`#Blog-${initialRange[0]}, #Blog-${initialRange[1]}, #Blog-${initialRange[2]}`).addClass('d-none');
+    $(`#Blog-${rangeToInclude[0]}, #Blog-${rangeToInclude[1]}, #Blog-${rangeToInclude[2]}`).removeClass('d-none');
     initialRange = rangeToInclude;
   }
 };
