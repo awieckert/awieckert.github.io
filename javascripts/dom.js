@@ -3,42 +3,43 @@ const printToDom = (divID, stringToPrint) => {
 };
 
 const printProjects = (projectsArray) => {
-//   let stringToPrint = '';
-//   stringToPrint +=  `<div class="row d-flex">`;
-//   stringToPrint +=  `<div class="col-4 project-list">`;
-//   stringToPrint +=   `<div class="list-group" id="list-tab" role="tablist">`;
-//   projectsArray.forEach((projects, i) => {
-//     if (i === 1) {
-//       stringToPrint +=   `<a class="list-group-item list-group-item-action active" id="list-${i}-list" data-toggle="list" href="#list-${i}" role="tab" aria-controls="${i}">${projects.title}</a>`;
-//     } else {
-//       stringToPrint +=   `<a class="list-group-item list-group-item-action" id="list-${i}-list" data-toggle="list" href="#list-${i}" role="tab" aria-controls="${i}">${projects.title}</a>`;
-//     }
-// });
-//   stringToPrint += `</div>`;
-//   stringToPrint += `</div>`;
+  let stringToPrint = '';
+  stringToPrint +=  `<div class="row">`;
+  stringToPrint +=  `<div class="col-4 project-list">`;
+  stringToPrint +=   `<div class="list-group" id="list-tab" role="tablist">`;
+  projectsArray.forEach((projects, i) => {
+    if (i === 0) {
+      stringToPrint +=   `<a class="list-group-item list-group-item-action active" id="list-${i}-list" data-toggle="list" href="#list-${i}" role="tab" aria-controls="${i}">${projects.title}</a>`;
+    } else {
+      stringToPrint +=   `<a class="list-group-item list-group-item-action" id="list-${i}-list" data-toggle="list" href="#list-${i}" role="tab" aria-controls="${i}">${projects.title}</a>`;
+    }
+  });
+  stringToPrint += `</div>`;
+  stringToPrint += `</div>`;
 
-//   stringToPrint +=  `<div class="col-8">`;
-//   stringToPrint +=  `<div class="tab-content" id="nav-tabContent">`;
+  stringToPrint +=  `<div class="col-8">`;
+  stringToPrint +=  `<div class="tab-content" id="nav-tabContent">`;
 
-//   projectsArray.forEach((project, j) => {
-//     if (j === 1) {
-//       stringToPrint +=   `<div class="tab-pane fade show active" id="list-${j}" role="tabpanel" aria-labelledby="list-${j}-list">`;
-//     } else {
-//       stringToPrint +=   `<div class="tab-pane fade" id="list-${j}" role="tabpanel" aria-labelledby="list-${j}-list">`;
-//     }
-//     stringToPrint +=   `<div class="jumbotron">`;
-//     stringToPrint +=    `<h1 class="display-4">${project.title}</h1>`;
-//     stringToPrint +=     `<p class="lead">${project.description}</p>`;
-//     stringToPrint +=     `<hr class="my-4">`;
-//     stringToPrint +=     `<p>${project.technologiesUsed}</p>`;
-//     stringToPrint +=     `<a class="btn btn-primary btn-lg" href="${project.url}" role="button">${project.buttonText}</a>`;
-//     stringToPrint +=     `<a class="btn btn-primary btn-lg" href="${project.github}" role="button">GitHub</a>`;
-//     stringToPrint +=   `</div>`;
-//     stringToPrint += `</div>`;
-//   });
-//   stringToPrint += `</div>`;
+  projectsArray.forEach((project, j) => {
+    if (j === 0) {
+      stringToPrint +=   `<div class="tab-pane fade show active" id="list-${j}" role="tabpanel" aria-labelledby="list-${j}-list">`;
+    } else {
+      stringToPrint +=   `<div class="tab-pane fade" id="list-${j}" role="tabpanel" aria-labelledby="list-${j}-list">`;
+    }
+    stringToPrint +=   `<div class="jumbotron jumbo-project">`;
+    stringToPrint +=   `<img src="${project.img}" class="${project.background}">`;
+    stringToPrint +=    `<h1 class="display-4">${project.title}</h1>`;
+    stringToPrint +=     `<p class="lead">${project.description}</p>`;
+    stringToPrint +=     `<hr class="my-4">`;
+    stringToPrint +=     `<p>${project.technologiesUsed}</p>`;
+    stringToPrint +=     `<a class="btn btn-primary btn-lg" href="${project.url}" role="button">${project.buttonText}</a>`;
+    stringToPrint +=     `<a class="btn btn-primary btn-lg github" href="${project.github}" role="button">GitHub</a>`;
+    stringToPrint +=   `</div>`;
+    stringToPrint += `</div>`;
+  });
+  stringToPrint += `</div>`;
 
-//   printToDom('#projects', stringToPrint);
+  printToDom('#projects', stringToPrint);
 };
 
 const printBlogs = (blogsArray) => {
