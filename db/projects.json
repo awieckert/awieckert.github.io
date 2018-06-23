@@ -24,7 +24,7 @@
   "project3": {
     "title": "Chatter Cheese",
     "background": "chatter-cheese",
-    "img": "./img/chatter-cheese.jpg",
+    "img": "./img/chattercheese.jpg",
     "description": "A group project to showcase our skills after three months at the Nashville Software School. Colorful language strongly encouraged.",
     "technologiesUsed": "jQuery, AJAX and JSON, OpenWeather API, Firebase, Task Automation, Version Control with Github",
     "available": true,
