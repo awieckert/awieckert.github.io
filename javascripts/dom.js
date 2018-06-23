@@ -3,20 +3,20 @@ const printToDom = (divID, stringToPrint) => {
 };
 
 const printProjects = (projectsArray) => {
-  let stringToPrint = '';
-  projectsArray.forEach((project) => {
-    stringToPrint +=  `<div class="card col-sm-3" style="width: 18rem;">`;
-    stringToPrint +=  `<img class="card-img-top project-images" src="${project.thumbnail}" alt="Card image cap">`;
-    stringToPrint +=  `<div class="card-body text-center">`;
-    stringToPrint +=    `<h5 class="card-title">${project.title}</h5>`;
-    stringToPrint +=    `<p class="card-text">${project.description}</p>`;
-    stringToPrint +=  `</div>`;
-    stringToPrint +=  `<div class="card-footer text-muted text-center">`;
-    stringToPrint +=    `<a href="${project.url}" target='_blank' class="btn btn-primary">${project.buttonText}</a>`;
-    stringToPrint +=  `</div>`;
-    stringToPrint +=  `</div>`;
-  });
-  printToDom('#projects', stringToPrint);
+  // let stringToPrint = '';
+  // projectsArray.forEach((project) => {
+  //   stringToPrint +=  `<div class="card col-sm-3" style="width: 18rem;">`;
+  //   stringToPrint +=  `<img class="card-img-top project-images" src="${project.thumbnail}" alt="Card image cap">`;
+  //   stringToPrint +=  `<div class="card-body text-center">`;
+  //   stringToPrint +=    `<h5 class="card-title">${project.title}</h5>`;
+  //   stringToPrint +=    `<p class="card-text">${project.description}</p>`;
+  //   stringToPrint +=  `</div>`;
+  //   stringToPrint +=  `<div class="card-footer text-muted text-center">`;
+  //   stringToPrint +=    `<a href="${project.url}" target='_blank' class="btn btn-primary">${project.buttonText}</a>`;
+  //   stringToPrint +=  `</div>`;
+  //   stringToPrint +=  `</div>`;
+  // });
+  // printToDom('#projects', stringToPrint);
 };
 
 const printBlogs = (blogsArray) => {
@@ -40,11 +40,11 @@ const printBlogs = (blogsArray) => {
   });
 
   paginationToPrint += `<ul class="pagination">`;
-  paginationToPrint +=  `<li class="page-item"><a id="previous" class="page-link blog-page">Previous</a></li>`;
+  paginationToPrint +=  `<li id='previous-list' class="page-item disabled"><a id="previous" class="page-link blog-page">Previous</a></li>`;
   for (let j = 1; j <= paginationLength; j++) {
     paginationToPrint +=  `<li class="page-item"><span id='page-${j}' class="page-link blog-page">${j}</span></li>`;
   }
-  paginationToPrint +=  `<li class="page-item"><a id='next' class="page-link blog-page">Next</a></li>`;
+  paginationToPrint +=  `<li id='next-list' class="page-item"><a id='next' class="page-link blog-page">Next</a></li>`;
   paginationToPrint +=  `</ul>`;
 
   printToDom('#print-blogs', blogsToPrint);
