@@ -3,20 +3,42 @@ const printToDom = (divID, stringToPrint) => {
 };
 
 const printProjects = (projectsArray) => {
-  // let stringToPrint = '';
-  // projectsArray.forEach((project) => {
-  //   stringToPrint +=  `<div class="card col-sm-3" style="width: 18rem;">`;
-  //   stringToPrint +=  `<img class="card-img-top project-images" src="${project.thumbnail}" alt="Card image cap">`;
-  //   stringToPrint +=  `<div class="card-body text-center">`;
-  //   stringToPrint +=    `<h5 class="card-title">${project.title}</h5>`;
-  //   stringToPrint +=    `<p class="card-text">${project.description}</p>`;
-  //   stringToPrint +=  `</div>`;
-  //   stringToPrint +=  `<div class="card-footer text-muted text-center">`;
-  //   stringToPrint +=    `<a href="${project.url}" target='_blank' class="btn btn-primary">${project.buttonText}</a>`;
-  //   stringToPrint +=  `</div>`;
-  //   stringToPrint +=  `</div>`;
-  // });
-  // printToDom('#projects', stringToPrint);
+//   let stringToPrint = '';
+//   stringToPrint +=  `<div class="row d-flex">`;
+//   stringToPrint +=  `<div class="col-4 project-list">`;
+//   stringToPrint +=   `<div class="list-group" id="list-tab" role="tablist">`;
+//   projectsArray.forEach((projects, i) => {
+//     if (i === 1) {
+//       stringToPrint +=   `<a class="list-group-item list-group-item-action active" id="list-${i}-list" data-toggle="list" href="#list-${i}" role="tab" aria-controls="${i}">${projects.title}</a>`;
+//     } else {
+//       stringToPrint +=   `<a class="list-group-item list-group-item-action" id="list-${i}-list" data-toggle="list" href="#list-${i}" role="tab" aria-controls="${i}">${projects.title}</a>`;
+//     }
+// });
+//   stringToPrint += `</div>`;
+//   stringToPrint += `</div>`;
+
+//   stringToPrint +=  `<div class="col-8">`;
+//   stringToPrint +=  `<div class="tab-content" id="nav-tabContent">`;
+
+//   projectsArray.forEach((project, j) => {
+//     if (j === 1) {
+//       stringToPrint +=   `<div class="tab-pane fade show active" id="list-${j}" role="tabpanel" aria-labelledby="list-${j}-list">`;
+//     } else {
+//       stringToPrint +=   `<div class="tab-pane fade" id="list-${j}" role="tabpanel" aria-labelledby="list-${j}-list">`;
+//     }
+//     stringToPrint +=   `<div class="jumbotron">`;
+//     stringToPrint +=    `<h1 class="display-4">${project.title}</h1>`;
+//     stringToPrint +=     `<p class="lead">${project.description}</p>`;
+//     stringToPrint +=     `<hr class="my-4">`;
+//     stringToPrint +=     `<p>${project.technologiesUsed}</p>`;
+//     stringToPrint +=     `<a class="btn btn-primary btn-lg" href="${project.url}" role="button">${project.buttonText}</a>`;
+//     stringToPrint +=     `<a class="btn btn-primary btn-lg" href="${project.github}" role="button">GitHub</a>`;
+//     stringToPrint +=   `</div>`;
+//     stringToPrint += `</div>`;
+//   });
+//   stringToPrint += `</div>`;
+
+//   printToDom('#projects', stringToPrint);
 };
 
 const printBlogs = (blogsArray) => {
