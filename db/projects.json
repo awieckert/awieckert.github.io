@@ -1,46 +1,32 @@
 {
-    "projects" : [
-    {
-        "id" : "Project 1",
-        "title" : "Super Cool Title 1",
-        "imgURL" : "img/bug-cat.jpg",
-        "description" : "This might be the most awesome project ever created, no seriously its really cool! Okay maybe it's not that great but you should still check it out.",
-        "gitHubURL" : "https://awieckert.github.io/"
-    },
-    {
-        "id" : "Project 2",
-        "title" : "Super Cool Title 2",
-        "imgURL" : "img/not-funny-cat.jpg",
-        "description" : "This might be the most awesome project ever created, no seriously its really cool! Okay maybe it's not that great but you should still check it out.",
-        "gitHubURL" : "https://awieckert.github.io/"
-    },
-    {
-        "id" : "Project 3",
-        "title" : "Super Cool Title 3",
-        "imgURL" : "img/airplane-cat.jpg",
-        "description" : "This might be the most awesome project ever created, no seriously its really cool! Okay maybe it's not that great but you should still check it out.",
-        "gitHubURL" : "https://awieckert.github.io/"
-    },
-    {
-        "id" : "Project 4",
-        "title" : "Super Cool Title 4",
-        "imgURL" : "img/jedi-cat.jpg",
-        "description" : "This might be the most awesome project ever created, no seriously its really cool! Okay maybe it's not that great but you should still check it out.",
-        "gitHubURL" : "https://awieckert.github.io/"
-    },
-    {
-        "id" : "Project 5",
-        "title" : "Super Cool Title 5",
-        "imgURL" : "img/must-ask-cat.jpg",
-        "description" : "This might be the most awesome project ever created, no seriously its really cool! Okay maybe it's not that great but you should still check it out.",
-        "gitHubURL" : "https://awieckert.github.io/"
-    },
-    {
-        "id" : "Project 6",
-        "title" : "Honestly, Not That Great of a Title",
-        "imgURL" : "img/thermo-cat.jpg",
-        "description" : "This might be the most awesome project ever created, no seriously its really cool! Okay maybe it's not that great but you should still check it out.",
-        "gitHubURL" : "https://awieckert.github.io/"
-    }
-]
+  "project1": {
+    "title": "Robo Romp",
+    "thumbnail": "./img/roboromp.ico",
+    "description": "A code challenge to learn JS prototypal inheritance turned side project. Duke it out against a friend in a Mortal Kombat themed robot frenzy!",
+    "technologiesUsed": "jQuery, AJAX and JSON, Prototypal JS, Task Automation, Animate.css, Version Control with Github",
+    "available": true,
+    "buttonText": "Enter Battle Dome!",
+    "url": "https://roboromp.firebaseapp.com",
+    "github": "https://github.com/awieckert/Robo-Romp"
+  },
+  "project2": {
+    "title": "Local Weather",
+    "thumbnail": "./img/local-weather.jpg",
+    "description": "An assignment that mixed the excitement of weather forecasts, API's and Firebase authentication. Hold onto your hats!",
+    "technologiesUsed": "jQuery, AJAX and JSON, OpenWeather API, Firebase, Task Automation, Version Control with Github",
+    "available": true,
+    "buttonText": "Check the Weather",
+    "url": "https://local-weather-900ce.firebaseapp.com/",
+    "github": "https://github.com/awieckert/local-weather"
+  },
+  "project3": {
+    "title": "Chatter Cheese",
+    "thumbnail": "./img/chatter-cheese.JPG",
+    "description": "A group project to showcase our skills after three months at the Nashville Software School. Colorful language strongly encouraged.",
+    "technologiesUsed": "jQuery, AJAX and JSON, OpenWeather API, Firebase, Task Automation, Version Control with Github",
+    "available": true,
+    "buttonText": "Start Chatting",
+    "url": "https://local-weather-900ce.firebaseapp.com/",
+    "github": "https://github.com/awieckert/chatty-turophobia"
+  }
 }

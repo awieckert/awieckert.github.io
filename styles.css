@@ -1,7 +1,7 @@
 #header-container {
   background-color: #4D48FB;
   -webkit-box-shadow: 0 4px 11px rgba(124,146,169,.5);
-  box-shadow: 0 4px 11px rgba(124,146,169,.5)!important;
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
 }
 
 .style-bar {
@@ -10,4 +10,27 @@
 
 .project-container {
   background-color: whitesmoke;
+}
+
+#awesome {
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+
+.project-images {
+  height: 200px;
+  margin-top: 1rem;
+}
+
+.card-footer {
+  background-color: white;
+  border-top: none;
+}
+
+.card-body {
+  padding-bottom: 0px;
+}
+
+.current {
+  background-color: #007bff;
+  color: white;
 }

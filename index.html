@@ -30,8 +30,8 @@
     </div>
   </nav>
 
-  <div class="header-container">
-  <div id="header-container" class="container">
+  <div id="header-container" class="header-container">
+  <div class="container">
       <div class="row justify-content-md-center header py-3">
         <div class="col-sm text-center">
           <h1>Development Portfolio</h1>
@@ -44,7 +44,7 @@
       </div>
       <div class="row justify-content-md-center main-buttons pb-3">
         <div class="col-sm text-center">
-          <button type="button" class="btn btn-secondary">Projects</button>
+          <button href="#projects" id="awesome" type="button" class="btn btn-secondary">Projects</button>
           <button type="button" class="btn btn-dark">Blogs</button>
         </div>
       </div>
@@ -55,37 +55,43 @@
 
 <div class="project-container">
   <div class="container">
-      <div class="row justify-content-md-around header py-3">
+      <div id="projects" class="row justify-content-md-around header py-3">
 
-          <div class="card col-sm-3" style="width: 18rem;">
-            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+          <!-- <div class="card col-sm-3" style="width: 18rem;">
+            <img class="card-img-top project-images" src="./img/roboromp.ico" alt="Card image cap">
+            <div class="card-body text-center">
+              <h5 class="card-title">Robo Romp</h5>
+              <p class="card-text">A code challenge to learn JS prototypal inheritance turned side project. Duke it out against a friend in a Mortal Kombat themed robot frenzy!</p>
+            </div>
+            <div class="card-footer text-muted text-center">
+              <a href="https://roboromp.firebaseapp.com" target='_blank' class="btn btn-primary">Enter Battle Dome!</a>
             </div>
           </div>
 
           <div class="card col-sm-3" style="width: 18rem;">
-            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <img class="card-img-top project-images" src="./img/local-weather.jpg" alt="Card image cap">
+            <div class="card-body text-center">
+              <h5 class="card-title">Local Weather</h5>
+              <p class="card-text">An assignment that mixed the excitement of weather forecasts, API's and Firebase authentication. Hold onto your hats!</p>
+            </div>
+            <div class="card-footer text-muted text-center">
+              <a href="https://local-weather-900ce.firebaseapp.com/" target="_blank" class="btn btn-primary">Check the Weather</a>
             </div>
           </div>
 
           <div class="card col-sm-3" style="width: 18rem;">
-            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <img class="card-img-top project-images" src="./img/chatter-cheese.JPG" alt="Card image cap">
+            <div class="card-body text-center">
+              <h5 class="card-title">Chatter Cheese</h5>
+              <p class="card-text">A group project to showcase our skills after three months at the Nashville Software School. Colorful language strongly encouraged.</p>
+            </div>
+            <div class="card-footer text-muted text-center">
+              <a href="#" class="btn btn-primary">Start Chatting</a>
             </div>
           </div>
-        </div>
+        </div> -->
 
-        <div class="row justify-content-md-around header py-3">
+        <!-- <div class="row justify-content-md-around header py-3">
 
           <div class="card col-sm-3" style="width: 18rem;">
             <img class="card-img-top" src=".../100px180/" alt="Card image cap">
@@ -112,7 +118,7 @@
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
-              </div>
+              </div> -->
 
         </div>
       </div>
@@ -125,7 +131,8 @@
   <div class="container">
       <div class="row justify-content-md-center header py-3">
         <div class="col-sm text-center">
-          <h1>Development Portfolio</h1>
+          <h1>Journey Through NSS</h1>
+          <h3>A Development Blog</h3>
         </div>
       </div>
       <div class="row justify-content-md-center statement pb-3">
@@ -133,17 +140,56 @@
           <p class="lead">This site showcases my work as a developer and journey through The Nashville Software School. With an educational background in neuroscience I hope to merge my passion for science and development into a career.</p>
         </div>
       </div>
-      <div class="row justify-content-md-center main-buttons pb-3">
-        <div class="col-sm text-center">
-          <button type="button" class="btn btn-secondary">Projects</button>
-          <button type="button" class="btn btn-dark">Blogs</button>
-        </div>
+      <div class="row justify-content-md-center pb-3">
+
+          <div id='print-blogs' class="list-group">
+              <!-- <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">List group item heading</h5>
+                  <small>3 days ago</small>
+                </div>
+                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                <small>Donec id elit non mi porta.</small>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">List group item heading</h5>
+                  <small class="text-muted">3 days ago</small>
+                </div>
+                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                <small class="text-muted">Donec id elit non mi porta.</small>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">List group item heading</h5>
+                  <small class="text-muted">3 days ago</small>
+                </div>
+                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                <small class="text-muted">Donec id elit non mi porta.</small>
+              </a> -->
+            </div>
+
       </div>
+
+      <div class="row justify-content-md-center pb-3">
+      <nav id="print-pagination" aria-label="Page navigation example">
+          <!-- <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul> -->
+        </nav>
+        </div>
+
   </div>
 </div>
 
 
 
+
+  <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
   <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
