@@ -29,3 +29,8 @@
 .card-body {
   padding-bottom: 0px;
 }
+
+.current {
+  background-color: #007bff;
+  color: white;
+}

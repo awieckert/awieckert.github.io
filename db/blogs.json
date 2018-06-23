@@ -1,7 +1,7 @@
 {
     "blogs" : [
     {
-        "blogID" : "Blog 1",
+        "blogID" : "Blog-1",
         "title" : "Blog Post #1",
         "date" : "Date: 2/25/2018",
         "strengths" : "After going over Git and GitHub with the instructors I feel more comfortable with it than I dblogID after the treehouse course. I feel that I am able to conceptualize most/all of what is being taught, except for the difference between red and green apparently!",
@@ -9,7 +9,7 @@
         "notes" : "It may be, that a better way to size images is by utilizing background-image in CSS. Requires a div to have set wblogIDth and heigh though."
     },
     {
-        "blogID" : "Blog 2",
+        "blogID" : "Blog-2",
         "title" : "Blog Post #2",
         "date" : "Date: 3/9/2018",
         "strengths" : "JavaScript logic. I feel relatively comfortable with the concepts of JavaScript that we have learned so far. I think my strengths will primarily lie within the realm of JavaScript over CSS styling. I have felt good about our group communication as well. Everyone is putting the time in and willing to ask questions/help out.",
@@ -17,7 +17,7 @@
         "notes" : "When fixing an infinite loop, make sure to clear you're browsers cache. Even after fixing the issue and starting a localhost on a different port, depending on where the loop is being loaded it can persist in your cache."
     },
     {
-        "blogID" : "Blog 3",
+        "blogID" : "Blog-3",
         "title" : "Blog Post #3",
         "date" : "Date: 3/9/2018",
         "strengths" : "Not sure there are any new updates in this category. Certainly have more weaknesses to discuss! YAY!",
@@ -25,7 +25,7 @@
         "notes" : "JavaScript is awesome when it works and you comprehend whats being done. JavaScript SUCKS when you don't."
     },
     {
-        "blogID" : "Blog 4",
+        "blogID" : "Blog-4",
         "title" : "Blog Post #4",
         "date" : "Date: 3/30/2018",
         "strengths" : "I have become more comfortable with my JavaScript knowledge. Looking at loops and other people's functions has started to feel more intuitive. I am sure right as I say this Zoe & Co. will introduce a new concept that will throw me for a loop....punny!",
@@ -33,7 +33,7 @@
         "notes" : "It's okay to be bested by the code and ask for help, as long as you've struggled with it for awhile. Your understanding of the material will increase through wrestling with the material even if you need an instructor to make the code run."
     },
     {
-        "blogID" : "Blog 5",
+        "blogID" : "Blog-5",
         "title" : "Blog Post #5",
         "date" : "Date: 3/31/2018",
         "strengths" : "The introduction of JSON has made sense so far. Chaining of functions is intuitive but I need more practice.",
@@ -41,7 +41,7 @@
         "notes" : "Things N' Stuff. Also Ron Swanson is my Hero."
     },
     {
-        "blogID" : "Blog 6",
+        "blogID" : "Blog-6",
         "title" : "Blog Post #6",
         "date" : "Date: 4/9/2018",
         "strengths" : "Holding back shower tears.....just kblogIDding. Things are going pretty well so far. I'm really enjoying everything so far. JavaScript is certainly my strength relative to CSS styling. I enjoy the problem solving and logic of JavaScript. I feel fairly good about my troubleshooting abilities, except for this week when I needed to ask Lauren for help. DblogIDn't know to look for the mistake I was making, makes it hard to resolve huh?!?!",
@@ -49,7 +49,7 @@
         "notes" : "READ READ READ! All the CSS styling. Keep reading it, you need it! Also practice it!"
     },
     {
-      "blogID" : "Blog 7",
+      "blogID" : "Blog-7",
       "title" : "Blog Post #7",
       "date" : "Date: 4/14/2018",
       "strengths" : "Got a positive review from the instructors last week. Was nice to know where the instructors view my progress through the program, instead of my own self deprecating version. I truly enjoy working with JavaScript, I'm excited to dive into C# later on in the program.",
@@ -57,7 +57,7 @@
       "notes" : "Put a bit more time in so that you can ask the instructors for challenges. They expect you to be asking them for more. Push yourself man, don't get complacent."
   },
   {
-    "blogID" : "Blog 8",
+    "blogID" : "Blog-8",
     "title" : "Blog Post #8",
     "date" : "Date: 4/28/2018",
     "strengths" : "This blog isn't so much a discussion of strengths, more so a reflection of where we are at in the program. We have been learning how to use task runners, specifically grunt. With a task runner come the tasks to run of course. These are a linter with custom rules set by none other than the all powerful Zoe. The second task we are working with is browserify, which to my minimal understanding, allows node like functionality to be used in the browser. I believe this includes things like require, that allow us to make modular file structures. Technically we have been using a third task, 'watch', which tells grunt to watch for a save and then runs the other tasks. I may be blinded by lack of knowledge but this seems a bit redundant/silly. We have to tell a task runner to pay attention to what we are doing so that it will run tasks over and over. Shouldn't that be the default state of a task runner? I realize that using 'watch' may be similar to telling grunt what time of input to look for being it runs the tasks.",
@@ -65,7 +65,7 @@
     "notes" : "I haven't asked the instructors for personal challenges yet, but our group for chatty has been working hard. We've met every night this week except frblogIDay, and we all dblogID stuff for it on frblogIDay indivblogIDually. We've added some additional features to chatty that haven't been given to us by the instructors, not to be rebels but just because we're excited about the project. Today we will tblogIDy up what we have and ask Callan for some stretch goals. Added this so I can push blog 8 branch, will remove this sentence later."
 },
 {
-  "blogID" : "Blog 9",
+  "blogID" : "Blog-9",
   "title" : "Blog Post #9",
   "date" : "Date: 5/9/2018",
   "strengths" : "Chatty was awesome! This week we were paired with indivblogIDuals of 'like' skill. This made for a great group dynamic as everyone felt they were able to contribute as much as everyone else. It also allowed us to power through a lot of the material. I really enjoyed working with this group and learned plenty of tricks from everyone.",
@@ -73,7 +73,7 @@
   "notes" : "All of these group members are great resources and love what they do. Make sure to keep in touch with them."
 },
 {
-  "blogID" : "Blog 10",
+  "blogID" : "Blog-10",
   "title" : "Blog Post #10",
   "date" : "Date: 5/9/2018",
   "strengths" : "This weeks topic, jQuery. Two words: F#$*ing Awesome! The number of built in methods is awesome. Certainly going to have to take the time to read the material, but the more I use it the better it will become.",
@@ -81,7 +81,7 @@
   "notes" : "Read the jQuery Docs. So helpful, even if they don't always seem like it. Better to have recolections of certain methods than to have never heard of them."
 },
 {
-  "blogID" : "Blog 11",
+  "blogID" : "Blog-11",
   "title" : "Blog Post #11",
   "date" : "Date: 5/17/2018",
   "strengths" : "I enjoy pain.....Just kblogIDding. This week we began to learn about promises. At first it was a bit hard to gather how these functioned. The concept of multiple timelines isn't a difficult one, programmer terms (sync vs async). However, know how the promise is actually accomplishing this is a bit interesting.",
@@ -89,7 +89,7 @@
   "notes" : "I would like to read more about Promises, streams, event bubbling, and constructors. Function oriented programming if there is time."
 },
 {
-  "blogID" : "Blog 12",
+  "blogID" : "Blog-12",
   "title" : "Blog Post #12",
   "date" : "Date: 5/29/2018",
   "strengths" : "On to API's! So far so good. The concepts of using a persistent data store are familiar. Currently we have only learned about requesting data through an API. Soon we will learn about posting and patching data. I'm also excited to learn more about firebase and webhosting.",
@@ -97,7 +97,7 @@
   "notes" : "Finish Robo Romp!"
 },
 {
-  "blogID" : "Blog 13",
+  "blogID" : "Blog-13",
   "title" : "Blog Post #13",
   "date" : "Date: 6/1/2018",
   "strengths" : "Currently learning how to work with Firebase. So far so good. I enjoy the concepts being taught here but the weather assignment is a bit boring relative to the others we've done. That sablogID it has all the proper criteria to teach us how to work with an API and a data store, also probably has to do with the noob friendly weather API.",
@@ -105,7 +105,7 @@
   "notes" : "Robo Romp 1.0 is Finished! Robo Romp 1.1 in the works"
 },
 {
-  "blogID" : "Blog 14",
+  "blogID" : "Blog-14",
   "title" : "Blog Post #14",
   "date" : "Date: 6/12/2018",
   "strengths" : "More work with Firebase this week. It's new and challenging for that reason but not conceptually. As I continue to use it I feel as though I have a better handle on it, at least at the basic level.",
