@@ -26,25 +26,23 @@ const printBlogs = (blogsArray) => {
   const paginationLength = Math.round(arrayLength / 3);
   blogsArray.forEach((blog, i) => {
     if (i >= 3) {
-      blogsToPrint += `<div href="#" class="list-group-item list-group-item-action flex-column align-items-start active hide">`;
+      blogsToPrint += `<div id="${blog.id}" href="#" class="list-group-item list-group-item-action flex-column align-items-start active d-none">`;
     } else {
-      blogsToPrint += `<div href="#" class="list-group-item list-group-item-action flex-column align-items-start active">`;
+      blogsToPrint += `<div id="${blog.id}" href="#" class="list-group-item list-group-item-action flex-column align-items-start active">`;
     }
     blogsToPrint +=  `<div class="d-flex w-100 justify-content-between">`;
     blogsToPrint +=    `<h5 class="mb-1">${blog.title}</h5>`;
-    blogsToPrint +=    `<small>3 days ago</small>`;
+    blogsToPrint +=    `<small>${blog.date}</small>`;
     blogsToPrint +=  `</div>`;
-    blogsToPrint +=  `<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit</p>`;
-    blogsToPrint +=  `<small>Donec id elit non mi porta.</small>`;
+    blogsToPrint +=  `<p class="mb-1"><strong>Strengths:</strong> ${blog.strengths}</p>`;
+    blogsToPrint +=  `<small><strong>Weaknesses:</strong> ${blog.weaknesses}</small>`;
     blogsToPrint +=  `</div>`;
   });
 
   paginationToPrint += `<ul class="pagination">`;
   paginationToPrint +=  `<li class="page-item"><a class="page-link" href="#">Previous</a></li>`;
   for (let j = 1; j <= paginationLength; j++) {
-    paginationToPrint +=  `<li class="page-item"><a class="page-link" href="#">1</a></li>`;
-    paginationToPrint +=  `<li class="page-item"><a class="page-link" href="#">2</a></li>`;
-    paginationToPrint +=  `<li class="page-item"><a class="page-link" href="#">3</a></li>`;
+    paginationToPrint +=  `<li class="page-item blog-page"><span class="page-link">${j}</span></li>`;
   }
   paginationToPrint +=  `<li class="page-item"><a class="page-link" href="#">Next</a></li>`;
   paginationToPrint +=  `</ul>`;
