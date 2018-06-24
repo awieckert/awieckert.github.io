@@ -10,7 +10,7 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light style-bar">
+  <nav id="main-nav" class="navbar sticky-top navbar-expand-lg navbar-light style-bar">
     <a class="navbar-brand" href="#">Awieckert</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -21,10 +21,10 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#projectz-container">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
+          <a class="nav-link" href="#blogz-container">Blog</a>
         </li>
       </ul>
     </div>
@@ -44,8 +44,8 @@
       </div>
       <div class="row justify-content-md-center main-buttons pb-3">
         <div class="col-sm text-center">
-          <button href="#projects" type="button" class="btn btn-secondary awesome">Projects</button>
-          <button type="button" class="btn btn-dark awesome">Blogs</button>
+          <a href="#projectz-container" type="button" class="btn btn-secondary awesome">Projects</a>
+          <a href="#blogz-container" type="button" class="btn btn-dark awesome">Blogs</a>
         </div>
       </div>
   </div>
@@ -53,7 +53,7 @@
 
 <!-- Projects -->
 
-<div class="project-container">
+<div id="projectz-container" class="project-container">
   <div class="container">
       <div id="projects" class="justify-content-md-around header py-3">
 
@@ -64,7 +64,7 @@
 
 <!-- Blogs -->
 
-<div class="main-blogs-container">
+<div id='blogz-container' class="main-blogs-container">
   <div class="container">
       <div class="row justify-content-md-center header py-3">
         <div class="col-sm text-center">
