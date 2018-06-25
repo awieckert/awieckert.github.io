@@ -1,6 +1,7 @@
 #header-container {
   position: relative;
   color: whitesmoke;
+  height: calc(100vh - 56px);
 }
 
 #header-container p {
@@ -13,13 +14,36 @@
   color: whitesmoke;
 }
 
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
 .header-containers img {
   width: 100%;
-  height: 700px;
+  height: calc(100% + 56px);
   top: -56px;
   left: 0;
   z-index: -1;
   position: absolute;
+}
+
+.developer-name {
+  padding-top: 24em;
+}
+
+hr {
+  border-top: 3px solid;
+  border-color: #7AEC95;
+}
+
+#fullstack {
+  border-radius: 10px!important;
+  background-color: gray;
+}
+
+#name {
+  font-size: 4em;
 }
 
 .shadow-shit {
@@ -109,3 +133,13 @@
   box-shadow: 0px 3px 2px 0px rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2) !important;
 }
 
+@media (max-width: 780px) {
+  #header-container {
+    height: calc(50vh - 56px);
+  }
+
+  .developer-name {
+    padding-top: 4em;
+  }
+
+}
