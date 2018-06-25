@@ -32,8 +32,8 @@ const printProjects = (projectsArray) => {
     stringToPrint +=     `<p class="lead">${project.description}</p>`;
     stringToPrint +=     `<hr class="my-4">`;
     stringToPrint +=     `<p>${project.technologiesUsed}</p>`;
-    stringToPrint +=     `<a class="btn btn-primary btn-lg" href="${project.url}" role="button">${project.buttonText}</a>`;
-    stringToPrint +=     `<a class="btn btn-primary btn-lg github" href="${project.github}" role="button">GitHub</a>`;
+    stringToPrint +=     `<a class="btn btn-primary btn-lg" href="${project.url}" target="_blank" role="button">${project.buttonText}</a>`;
+    stringToPrint +=     `<a class="btn btn-primary btn-lg github" href="${project.github}" target="_blank" role="button">GitHub</a>`;
     stringToPrint +=   `</div>`;
     stringToPrint += `</div>`;
   });

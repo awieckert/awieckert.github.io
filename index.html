@@ -10,7 +10,7 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light style-bar">
+  <nav id="main-nav" class="navbar sticky-top navbar-expand-lg navbar-light style-bar">
     <a class="navbar-brand" href="#">Awieckert</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -21,39 +21,42 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#projectz-container">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
+          <a class="nav-link" href="#blogz-container">Blog</a>
         </li>
       </ul>
     </div>
   </nav>
 
   <div id="header-container" class="header-containers shadow-shit">
-  <div class="container">
-      <div class="row justify-content-md-center header py-3">
-        <div class="col-sm text-center">
-          <h1>Development Portfolio</h1>
+    <img src="./img/neuro-tech7.png" alt="">
+  <div class="container d-flex flex-row justify-content-md-end justify-content-sm-center">
+      <div class="row developer-name">
+        <div class="col-sm text-center pt-5">
+          <h1 id='name' class='pb-2'>Adam Wieckert</h1>
+          <hr>
+          <button id="fullstack" type="button" class="btn btn-secondary awesome mt-3"><a href="#projectz-container">Full Stack Development</a></button>
         </div>
       </div>
-      <div class="row justify-content-md-center statement pb-3">
+      <!-- <div class="row statement pb-3">
         <div class="col-sm-7 text-center">
           <p class="lead">This site showcases my work as a developer and journey through The Nashville Software School. With an educational background in neuroscience I hope to merge my passion for science and development into a career.</p>
         </div>
-      </div>
-      <div class="row justify-content-md-center main-buttons pb-3">
+      </div> -->
+      <!-- <div class="row main-buttons pb-3">
         <div class="col-sm text-center">
-          <button href="#projects" type="button" class="btn btn-secondary awesome">Projects</button>
-          <button type="button" class="btn btn-dark awesome">Blogs</button>
+          <a href="#projectz-container" type="button" class="btn btn-secondary awesome">Projects</a>
+          <a href="#blogz-container" type="button" class="btn btn-dark awesome">Blogs</a>
         </div>
-      </div>
+      </div> -->
   </div>
 </div>
 
 <!-- Projects -->
 
-<div class="project-container">
+<div id="projectz-container" class="project-container">
   <div class="container">
       <div id="projects" class="justify-content-md-around header py-3">
 
@@ -64,7 +67,7 @@
 
 <!-- Blogs -->
 
-<div class="main-blogs-container">
+<div id='blogz-container' class="main-blogs-container">
   <div class="container">
       <div class="row justify-content-md-center header py-3">
         <div class="col-sm text-center">
