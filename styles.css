@@ -93,7 +93,8 @@ hr {
 }
 
 .jumbo-project a {
-  z-index: 100000000000;
+  position: relative;
+  z-index: 2;
 }
 
 .jumbo-project .lead {
