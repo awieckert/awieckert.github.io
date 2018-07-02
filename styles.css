@@ -242,4 +242,16 @@ hr {
   .size-carousel {
     height: 20rem;
   }
+
+  .robo-romp {
+    display: none;
+  }
+
+  .local-weather {
+    display: none;
+  }
+
+  .chatter-cheese {
+    display: none;
+  }
 }
