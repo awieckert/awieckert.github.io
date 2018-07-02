@@ -5,7 +5,7 @@ const printToDom = (divID, stringToPrint) => {
 const printProjects = (projectsArray) => {
   let stringToPrint = '';
   stringToPrint +=  `<div class="row">`;
-  stringToPrint +=  `<div class="col-4 project-list">`;
+  stringToPrint +=  `<div class="col-md-4 col-12 project-list">`;
   stringToPrint +=   `<div class="list-group" id="list-tab" role="tablist">`;
   projectsArray.forEach((projects, i) => {
     if (i === 0) {
@@ -17,7 +17,7 @@ const printProjects = (projectsArray) => {
   stringToPrint += `</div>`;
   stringToPrint += `</div>`;
 
-  stringToPrint +=  `<div class="col-8">`;
+  stringToPrint +=  `<div class="col-12 col-md-8 pt-2 pt-md-0">`;
   stringToPrint +=  `<div class="tab-content" id="nav-tabContent">`;
 
   projectsArray.forEach((project, j) => {
