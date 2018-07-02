@@ -67,12 +67,25 @@ hr {
 
 /* About */
 .image-div {
-  /* position: relative; */
-  height: 20rem;
-  width: 15rem;
-
+  height: 30rem;
+  width: 22.5rem;
 }
 
+.about-h2 {
+  display: inline-block;
+}
+
+.about-h2 hr {
+  width: 120%;
+}
+
+.experience-h1 {
+  display: inline-block;
+}
+
+.experience-h1 hr {
+  width: 120%;
+}
 
 .about-image {
   /* position: absolute; */
@@ -87,8 +100,7 @@ hr {
 }
 
 .size-carousel {
-  height: 25rem;
-  /* position: relative; */
+  height: 30rem;
 }
 
 .size-carousel img {
@@ -209,5 +221,14 @@ hr {
   #name {
     padding-bottom: 0rem;
     margin-bottom: 0px;
+  }
+
+  .image-div {
+    height: 20rem;
+    width: 15rem;
+  }
+
+  .size-carousel {
+    height: 20rem;
   }
 }
