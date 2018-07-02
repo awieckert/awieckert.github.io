@@ -67,8 +67,8 @@ hr {
 
 /* About */
 .image-div {
-  height: 30rem;
-  width: 22.5rem;
+  height: 25rem;
+  width: 18.75rem;
 }
 
 .about-h2 {
@@ -142,6 +142,17 @@ hr {
 .project-container {
   background-color: whitesmoke;
   margin-top: 3px;
+}
+
+.projects-h2 {
+  padding-top: 1rem;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+.projects-h2 hr {
+  margin-bottom: 0px;
+  width: 120%;
 }
 
 .project-images {
