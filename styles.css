@@ -152,6 +152,11 @@ hr {
   z-index: -1;
 }
 
+.tech img {
+  height: 96px;
+  width: 96px;
+}
+
 .projects-h2 {
   padding-top: 1rem;
   display: inline-block;
