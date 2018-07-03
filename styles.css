@@ -152,6 +152,15 @@ hr {
   z-index: -1;
 }
 
+.proficiencies-h2 {
+  display: inline-block;
+  color: whitesmoke;
+}
+
+.proficiencies-h2 hr {
+  width: 120%;
+}
+
 .image-container {
   height: 100px;
   width: 100px;
