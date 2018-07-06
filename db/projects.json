@@ -29,7 +29,7 @@
     "technologiesUsed": "jQuery, AJAX and JSON, OpenWeather API, Firebase, Task Automation, Version Control with Github",
     "available": true,
     "buttonText": "Start Chatting",
-    "url": "https://local-weather-900ce.firebaseapp.com/",
+    "url": "https://chatter-cheese.firebaseapp.com/",
     "github": "https://github.com/awieckert/chatty-turophobia"
   }
 }
