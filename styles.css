@@ -79,6 +79,10 @@ hr {
   width: 120%;
 }
 
+.visibility {
+  visibility: hidden;
+}
+
 .experience-h1 {
   display: inline-block;
 }
