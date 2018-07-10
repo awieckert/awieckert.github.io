@@ -5,7 +5,7 @@
         "title" : "Blog Post #1",
         "date" : "Date: 2/25/2018",
         "strengths" : "After going over Git and GitHub with the instructors I feel more comfortable with it than I did after the treehouse course. I feel that I am able to conceptualize most/all of what is being taught, except for the difference between red and green apparently!",
-        "weaknesses" : "Styling images! Christ! I'm not sure if it is attempting to mimic another site using their source material or what but I have been struggling with the sizing of images. Page layout is going to be my biggest downfall, or really where I need to spend most of my time practicing. Hoping that utilizing flexbox on my own site will prove more fruitful for my understanding of layout and image/div sizing.",
+        "weaknesses" : "Styling images! I'm not sure if it is attempting to mimic another site using their source material or what but I have been struggling with the sizing of images. Page layout is going to be my biggest downfall, or really where I need to spend most of my time practicing. Hoping that utilizing flexbox on my own site will prove more fruitful for my understanding of layout and image/div sizing.",
         "notes" : "It may be, that a better way to size images is by utilizing background-image in CSS. Requires a div to have set width and heigh though."
     },
     {
@@ -13,7 +13,7 @@
         "title" : "Blog Post #2",
         "date" : "Date: 3/9/2018",
         "strengths" : "JavaScript logic. I feel relatively comfortable with the concepts of JavaScript that we have learned so far. I think my strengths will primarily lie within the realm of JavaScript over CSS styling. I have felt good about our group communication as well. Everyone is putting the time in and willing to ask questions/help out.",
-        "weaknesses" : "More advanced JavaScript. While I just said JavaScript was where my strength lie, it is also where I have plenty of glaring weaknesses. There is a lot to learn and I've only just scratched the tip. Recently I've been frustrated with the .filter() function. I also need to be careful creating infinite loops. Is doesn't happen often but when it does, oh man does it!",
+        "weaknesses" : "More advanced JavaScript. While I just said JavaScript was where my strength lie, it is also where I have plenty of glaring weaknesses. There is a lot to learn and I've only just scratched the surface. Recently I've been frustrated with the .filter() function. I also need to be careful creating infinite loops. It doesn't happen often but when it does, oh man does it!",
         "notes" : "When fixing an infinite loop, make sure to clear you're browsers cache. Even after fixing the issue and starting a localhost on a different port, depending on where the loop is being loaded it can persist in your cache."
     },
     {
@@ -37,14 +37,14 @@
         "title" : "Blog Post #5",
         "date" : "Date: 3/31/2018",
         "strengths" : "The introduction of JSON has made sense so far. Chaining of functions is intuitive but I need more practice.",
-        "weaknesses" : "Organization of functions in JS. Setting them up in the proper order can feel a bit counter intutive currently. Another weakness is identifying multiple way to grab the data I'm after rather than thinking to turn back to the JSON object right away.",
+        "weaknesses" : "Organization of functions in JS. Setting them up in the proper order can feel a bit counter intuitive currently. Another weakness is identifying multiple ways to grab the data I'm after rather than thinking to turn back to the JSON object right away.",
         "notes" : "Things N' Stuff. Also Ron Swanson is my Hero."
     },
     {
         "blogID" : "Blog-6",
         "title" : "Blog Post #6",
         "date" : "Date: 4/9/2018",
-        "strengths" : "Holding back shower tears.....just kidding. Things are going pretty well so far. I'm really enjoying everything so far. JavaScript is certainly my strength relative to CSS styling. I enjoy the problem solving and logic of JavaScript. I feel fairly good about my troubleshooting abilities, except for this week when I needed to ask Lauren for help. Didn't know to look for the mistake I was making, makes it hard to resolve huh?!?!",
+        "strengths" : "Holding back shower tears.....just kidding. Things are going pretty well so far. I'm really enjoying everything. JavaScript is certainly my strength relative to CSS styling. I enjoy the problem solving and logic of JavaScript. I feel fairly good about my troubleshooting abilities, except for this week when I needed to ask Lauren for help. Didn't know to look for the mistake I was making, makes it hard to resolve huh?!?!",
         "weaknesses" : "Still CSS >.< I am getting a bit better at CSS layout with bootstrap. I have started reading the bootstrap documentation and it has been helping. Another weakness is remember that my XHR request cannot call ES6 functions! Bad ES6, Bad!",
         "notes" : "READ READ READ! All the CSS styling. Keep reading it, you need it! Also practice it!"
     },
@@ -53,16 +53,16 @@
       "title" : "Blog Post #7",
       "date" : "Date: 4/14/2018",
       "strengths" : "Got a positive review from the instructors last week. Was nice to know where the instructors view my progress through the program, instead of my own self deprecating version. I truly enjoy working with JavaScript, I'm excited to dive into C# later on in the program.",
-      "weaknesses" : "Had a bit of a freakout with Bootstrap 3 the other day. It was resolved, thankfully. After this event my understand of Bootstrap has increased a fair amount. Styling is still the major challenge for me. I wish we were using Bootstrap 4 at this point. Not utilizing Flexbox's amazingness seems wasteful.",
+      "weaknesses" : "Had a bit of a freakout with Bootstrap 3 the other day. It was resolved, thankfully. After this event my understanding of Bootstrap has increased a fair amount. Styling is still the major challenge for me. I wish we were using Bootstrap 4 at this point. Not utilizing Flexbox's amazingness seems wasteful.",
       "notes" : "Put a bit more time in so that you can ask the instructors for challenges. They expect you to be asking them for more. Push yourself man, don't get complacent."
   },
   {
     "blogID" : "Blog-8",
     "title" : "Blog Post #8",
     "date" : "Date: 4/28/2018",
-    "strengths" : "This blog isn't so much a discussion of strengths, more so a reflection of where we are at in the program. We have been learning how to use task runners, specifically grunt. With a task runner come the tasks to run of course. These are a linter with custom rules set by none other than the all powerful Zoe. The second task we are working with is browserify, which to my minimal understanding, allows node like functionality to be used in the browser. I believe this includes things like require, that allow us to make modular file structures. Technically we have been using a third task, 'watch', which tells grunt to watch for a save and then runs the other tasks.",
+    "strengths" : "This blog isn't so much a discussion of strengths, more so a reflection of where we are at in the program. We have been learning how to use task runners, specifically grunt. With a task runner come the tasks to run of course. These are a linter with custom rules set by none other than the all powerful Zoe. The second task we are working with is browserify, which to my minimal understanding, allows node like functionality to be used in the browser.",
     "weaknesses" : "Remember how last time I said my understanding of bootstrap had improved.....yeah....scratch that. Was tasked with making our nav-bar a bit more mobile friendly for our website. Whelp, that didn't happen. You know the feeling when you add 4000000px to your margin and the element doesn't move? It's great.",
-    "notes" : "I haven't asked the instructors for personal challenges yet, but our group for chatty has been working hard. We've met every night this week except Friday, and we all did stuff for it on Friday individually. We've added some additional features to chatty that haven't been given to us by the instructors, not to be rebels but just because we're excited about the project. Today we will tidy up what we have and ask Callan for some stretch goals."
+    "notes" : "I haven't asked the instructors for personal challenges yet, but our group for chatty has been working hard. We've met every night this week except Friday, and we all did stuff for it on Friday individually."
 },
 {
   "blogID" : "Blog-9",
@@ -76,9 +76,9 @@
   "blogID" : "Blog-10",
   "title" : "Blog Post #10",
   "date" : "Date: 5/9/2018",
-  "strengths" : "This weeks topic, jQuery. Two words: F#$*ing Awesome! The number of built in methods is awesome. Certainly going to have to take the time to read the material, but the more I use it the better it will become.",
+  "strengths" : "This weeks topic, jQuery. The number of built in methods is amazing. Certainly going to have to take the time to read the material, but the more I use it the better it will become.",
   "weaknesses" : "It does change your way of thinking slightly, mostly due to not knowing as many methods but something to put time into. Learning to primarily target the DOM for data manipulation is a bit different than the JS we were doing earlier. Possible that true data manipulation will be treated with out the sure of jQuery but that is yet to be seen.",
-  "notes" : "Read the jQuery Docs. So helpful, even if they don't always seem like it. Better to have recolections of certain methods than to have never heard of them."
+  "notes" : "Read the jQuery Docs. So helpful, even if they don't always seem like it. Better to have recollections of certain methods than to have never heard of them."
 },
 {
   "blogID" : "Blog-11",
@@ -92,7 +92,7 @@
   "blogID" : "Blog-12",
   "title" : "Blog Post #12",
   "date" : "Date: 5/29/2018",
-  "strengths" : "On to API's! So far so good. The concepts of using a persistent data store are familiar. Currently we have only learned about requesting data through an API. Soon we will learn about posting and patching data. I'm also excited to learn more about firebase and webhosting.",
+  "strengths" : "On to API's! So far so good. The concepts of using a persistent data store are familiar. Currently we have only learned about requesting data through an API. Soon we will learn about posting and patching data. I'm also excited to learn more about firebase and web-hosting.",
   "weaknesses" : "Nothing in this department yet. Keyword is 'Yet'. Once we learn more about API's I am sure I will run into road blocks.",
   "notes" : "Finish Robo Romp!"
 },
@@ -111,6 +111,22 @@
   "strengths" : "More work with Firebase this week. It's new and challenging for that reason but not conceptually. As I continue to use it I feel as though I have a better handle on it, at least at the basic level.",
   "weaknesses" : "CSS as always. Bootstrap not allowing box shadows on containers? What is this nonsense!?",
   "notes" : "Robo Romp Ideas: 1. Add player log ins to track statistics. 2. Add ability to play computer or a friend using Socket.io. 3. Add a chat using socket.io."
+},
+{
+  "blogID" : "Blog-15",
+  "title" : "Blog Post #15",
+  "date" : "Date: 7/3/2018",
+  "strengths" : "We began learning about React this week. It sounds like this may solve a lot of our circular dependency issues. Compartmentalization of components makes a lot of sense to me. However, passing functions and data around may become an interesting task.",
+  "weaknesses" : "None for React yet, but only because we just began to learn it.",
+  "notes" : "Read up on React and Socket.io still. Finish personal site as well."
+},
+{
+  "blogID" : "Blog-16",
+  "title" : "Blog Post #16",
+  "date" : "Date: 7/10/2018",
+  "strengths" : "We have been using React for a week or two now and most of the concepts I understand. I really like the idea of each component having a given state that can be modified. It makes it feel as though the program is always in a state of flux, moving and changing.",
+  "weaknesses" : "One of the biggest obstacles is learning how React wants you to do things. For instance: learning where you have access to props versus state, how to pass variables into components, when to use anchor tags versus link tags for routing (Never anchor tags but that's just an example).",
+  "notes" : "Read up on React and Socket.io still. Finish personal site as well."
 }
 ]
 }
