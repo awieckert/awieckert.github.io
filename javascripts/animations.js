@@ -7,11 +7,11 @@ const addScrollEvent = () => {
 };
 
 const animationDelayLeft = (item) => {
-  window.setTimeout(function () { item.addClass('slideInLeft'); item.removeClass('d-none'); } , 1000);
+  window.setTimeout(function () { item.addClass('slideInLeft'); item.removeClass('visibility'); } , 500);
 };
 
 const animationDelayRight = (item) => {
-  window.setTimeout(function () { item.addClass('slideInRight'); item.removeClass('d-none'); }, 1000);
+  window.setTimeout(function () { item.addClass('slideInRight'); item.removeClass('visibility'); }, 500);
 };
 
 const ifInView = () => {
@@ -31,7 +31,7 @@ const ifInView = () => {
     } else {
       item.removeClass('slideInRight');
       item.removeClass('slideInLeft');
-      item.addClass('d-none');
+      item.addClass('visibility');
     }
   });
 };
