@@ -1,6 +1,17 @@
 {
   "project1": {
-    "title": "Robo Romp",
+    "title": "Robo Romp: Revenge of the Bot!",
+    "background": "robo-romp-rotb",
+    "img": "./img/roboromp.ico",
+    "description": "Frontend Capstone for NSS. A total overhaul of Robo Romp 1.0. Compete against your friends online, find out who the real champion is! Not for the feint of heart!",
+    "technologiesUsed": "React, JavaScript, Webpack, Firebase, Bttn.css, Animate.css, and Version Control with Github",
+    "available": true,
+    "buttonText": "Join The Fight!",
+    "url": "https://robo-romp-rotb.firebaseapp.com/gamemode",
+    "github": "https://github.com/awieckert/robo-romp-rotb"
+  },
+  "project2": {
+    "title": "Robo Romp 1.0",
     "background": "robo-romp",
     "img": "./img/roboromp.ico",
     "description": "A code challenge to learn JS prototypal inheritance turned side project. Duke it out against a friend in a Mortal Kombat themed robot frenzy!",
@@ -10,7 +21,7 @@
     "url": "https://roboromp.firebaseapp.com",
     "github": "https://github.com/awieckert/Robo-Romp"
   },
-  "project2": {
+  "project3": {
     "title": "Local Weather",
     "background": "local-weather",
     "img": "./img/local-weather.jpg",
@@ -21,7 +32,7 @@
     "url": "https://local-weather-900ce.firebaseapp.com/",
     "github": "https://github.com/awieckert/local-weather"
   },
-  "project3": {
+  "project4": {
     "title": "Chatter Cheese",
     "background": "chatter-cheese",
     "img": "./img/chattercheese.png",

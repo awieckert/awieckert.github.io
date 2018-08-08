@@ -226,6 +226,12 @@ hr {
   opacity: 0.12;
 }
 
+.robo-romp-rotb {
+  position: absolute;
+  right: 10px;
+  opacity: 0.12;
+}
+
 .local-weather {
   position: absolute;
   opacity: 0.13;
