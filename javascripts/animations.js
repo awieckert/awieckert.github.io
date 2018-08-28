@@ -2,8 +2,7 @@ const animationElements = $('.animated');
 const $window = $(window);
 
 const addScrollEvent = () => {
-  $window.on('scroll resize', ifInView);
-  $window.trigger('scroll');
+  $window.on('scroll', ifInView);
 };
 
 const animationDelayLeft = (item) => {
